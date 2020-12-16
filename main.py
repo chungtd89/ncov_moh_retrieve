@@ -28,9 +28,9 @@ while (1):
         #print (elems_head[i].text)
         #print (elems_content[i].text)
 
-        with open('vnCovid19Summary.csv', mode='a+', encoding="utf-8") as f:
+        with open('vnCovid19Summary.csv', mode='a+', encoding="utf-8", newline='') as f:
             fwrite = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            fwrite.writerow([elems_head[i].text, elems_content[i].text])
+            fwrite.writerow([str(elems_head[i].text), str(elems_content[i].text)])
 
     if int(driver.find_element_by_link_text('Next').get_attribute("tabindex")) == -1:
         driver.quit()
