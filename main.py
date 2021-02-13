@@ -15,9 +15,10 @@ import csv
 driver = webdriver.Firefox(executable_path=r'D:\GitHub\ncov_moh_retrieve\geckodriver.exe')
 driver.get("https://ncov.moh.gov.vn/en/web/guest/dong-thoi-gian")
 
+time_sleep = 3
 while (1):
 
-    time.sleep(3)
+    time.sleep(time_sleep)
 
     elems_head = driver.find_elements_by_class_name('timeline-head')
     elems_content = driver.find_elements_by_class_name('timeline-content')
