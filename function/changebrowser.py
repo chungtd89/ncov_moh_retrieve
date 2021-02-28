@@ -1,5 +1,5 @@
 def change_browser():
-    with open("browser/browser.log", "r", encoding="utf8") as number:
+    with open("browser/browser.log", "r") as number:
         browser = number.readline()
 
     current_browser = ""
@@ -33,7 +33,7 @@ def change_browser():
                 "\n3. Firefox"
                 "\nYour choice: "
             )
-            with open("browser/browser.log", "w", encoding="utf8") as number:
+            with open("browser/browser.log", "w") as number:
                 number.write(browser)
             print("*Set " + dict_browser.get(int(browser)) + " as default browser!*")
             break
