@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_931d32f38f4e48108773be594218f6fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_931d32f38f4e48108773be594218f6fa" ></div>
+        
+</body>
+<script>    
+    
+            var map_931d32f38f4e48108773be594218f6fa = L.map(
+                "map_931d32f38f4e48108773be594218f6fa",
+                {
+                    center: [16.4637, 107.5909],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_93367cdbc80d4aa081bc0bb507388f05 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 10, "maxZoom": 10, "minZoom": 1, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            var circle_c6b7619792004a32b6a0c09bee31ac98 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_c6b7619792004a32b6a0c09bee31ac98.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_12f40b2ae2934c3188b76485b67d3a1c = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_12f40b2ae2934c3188b76485b67d3a1c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e154cb81fbb3418bbb5ba9e0e31e457a = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_e154cb81fbb3418bbb5ba9e0e31e457a.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f174f1483a8b4150aff12c8f573fa24a = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_f174f1483a8b4150aff12c8f573fa24a.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_060bccfb6192401d94802aba75a3b2ce = L.circle(
+                [16.068, 108.212],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_060bccfb6192401d94802aba75a3b2ce.bindTooltip(
+                `<div>
+                     <li><bold>Province : Da Nang<li><bold>Confirmed : 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6f9bbffa136641e798397f731820aed2 = L.circle(
+                [16.068, 108.212],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_6f9bbffa136641e798397f731820aed2.bindTooltip(
+                `<div>
+                     <li><bold>Province : Da Nang<li><bold>Confirmed : 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aa7558cbc99d4268adc6aebeaebcf801 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_aa7558cbc99d4268adc6aebeaebcf801.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87bdd1c079424c658cb05ead0ca12271 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_87bdd1c079424c658cb05ead0ca12271.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8c6e06bd3fbc4200a8134bf1e7556e5f = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_8c6e06bd3fbc4200a8134bf1e7556e5f.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4716f950192b4e349d2cb53041b40196 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_4716f950192b4e349d2cb53041b40196.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a97380f2d46f458eaceaecffd3ddd4a0 = L.circle(
+                [22.2967657, 104.0566164],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_a97380f2d46f458eaceaecffd3ddd4a0.bindTooltip(
+                `<div>
+                     <li><bold>Province : Lao Cai<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30b0b43d0e024679ac33a9df2fc8294c = L.circle(
+                [22.2967657, 104.0566164],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_30b0b43d0e024679ac33a9df2fc8294c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Lao Cai<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e72f4bf975384129b060e5e6aecfe048 = L.circle(
+                [16.4638013, 107.5821911],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_e72f4bf975384129b060e5e6aecfe048.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hue<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4438c889c3a747edb4c5047eaa4d42f9 = L.circle(
+                [15.5973344, 107.9758089],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_4438c889c3a747edb4c5047eaa4d42f9.bindTooltip(
+                `<div>
+                     <li><bold>Province : Quang Nam Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2136347cab5b4cda9d1e958322623ca3 = L.circle(
+                [10.7740484, 106.701125],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_2136347cab5b4cda9d1e958322623ca3.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_90d6eb35f0754f6f93669f6667a69eef = L.circle(
+                [15.8798137, 108.3273939],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_90d6eb35f0754f6f93669f6667a69eef.bindTooltip(
+                `<div>
+                     <li><bold>Province : Quang Nam<li><bold>Confirmed : 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_be7b39e0948546d482fd32d20084851c = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_be7b39e0948546d482fd32d20084851c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3a92b4eb690b4933b37598632adc5889 = L.circle(
+                [16.068, 108.212],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_3a92b4eb690b4933b37598632adc5889.bindTooltip(
+                `<div>
+                     <li><bold>Province : Da Nang<li><bold>Confirmed : 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7206488198224736ac2d902263e4ae73 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_7206488198224736ac2d902263e4ae73.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5c36fe4d2d76429086596905caa667f7 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_5c36fe4d2d76429086596905caa667f7.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2ac95f21bbc84fe2b63889528a874846 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_2ac95f21bbc84fe2b63889528a874846.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2e88061ec93b4633a88dc380d70bccbe = L.circle(
+                [21.0294498, 105.8544441],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_2e88061ec93b4633a88dc380d70bccbe.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0de4859c1d24fc38a1f42ae978b3f51 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_b0de4859c1d24fc38a1f42ae978b3f51.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a9f9d00b39184055892d606a63d499e6 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_a9f9d00b39184055892d606a63d499e6.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_620ffdc3154b4c9ba8ba78cbdaf26623 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_620ffdc3154b4c9ba8ba78cbdaf26623.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b9a974df47b9454ab1a31e859c6b6310 = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_b9a974df47b9454ab1a31e859c6b6310.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_350c0711a38040b9b729e0e2353c389a = L.circle(
+                [11.101462, 107.9415938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_350c0711a38040b9b729e0e2353c389a.bindTooltip(
+                `<div>
+                     <li><bold>Province : Binh Thuan Province<li><bold>Confirmed : 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_59c117b9d4874be1a9267433062624e1 = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_59c117b9d4874be1a9267433062624e1.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_855467f8ab344234a08786c85b252784 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_855467f8ab344234a08786c85b252784.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_157386e7b8b14b198130e346fcde4712 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_157386e7b8b14b198130e346fcde4712.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d261b6de7518477a994272f0d5f1b05b = L.circle(
+                [10.773198, 106.6678329],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_d261b6de7518477a994272f0d5f1b05b.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bfb3788c24594e4ebe9b57d3a6fe5fca = L.circle(
+                [16.4638013, 107.5821911],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_bfb3788c24594e4ebe9b57d3a6fe5fca.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hue<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c4ff07d6090c46e78a700b2ec3a2d32c = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_c4ff07d6090c46e78a700b2ec3a2d32c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_016d72734303410f986311eef6e5d29e = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_016d72734303410f986311eef6e5d29e.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3916ab359f684377bb8c16bf57533319 = L.circle(
+                [20.96795105, 107.08347876050445],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_3916ab359f684377bb8c16bf57533319.bindTooltip(
+                `<div>
+                     <li><bold>Province : Quang Ninh Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_00e133847b234d64bea1d4004891963f = L.circle(
+                [10.7745397, 106.69918361158545],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_00e133847b234d64bea1d4004891963f.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_86caf4aaf4b74fdcbc8be5ebed8ab275 = L.circle(
+                [10.7758439, 106.7017555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_86caf4aaf4b74fdcbc8be5ebed8ab275.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d5caa49307240e98c0b46a284efb131 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_7d5caa49307240e98c0b46a284efb131.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_12b97cb9a6b541f2bc120c8972452bbc = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_12b97cb9a6b541f2bc120c8972452bbc.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b2afa988b9fc4780a4aaa10354316247 = L.circle(
+                [15.5973344, 107.9758089],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_b2afa988b9fc4780a4aaa10354316247.bindTooltip(
+                `<div>
+                     <li><bold>Province : Quang Nam Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d83cc173df07403bbc46fdb2b9a9bf84 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_d83cc173df07403bbc46fdb2b9a9bf84.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0968623a448348faa944b78feb7b34ff = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_0968623a448348faa944b78feb7b34ff.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8e54931cd57a4e94991ae20e5411765d = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_8e54931cd57a4e94991ae20e5411765d.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5e149995d66148d2ba8cc02dedfe7429 = L.circle(
+                [11.7449715, 108.8983408],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_5e149995d66148d2ba8cc02dedfe7429.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ninh Thuan Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d0d7c05971fd43839c02df24ab8ea274 = L.circle(
+                [21.0414692, 106.7740261],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_d0d7c05971fd43839c02df24ab8ea274.bindTooltip(
+                `<div>
+                     <li><bold>Province : Quang Ninh Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a24423b084fa4c9aa501678482101452 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_a24423b084fa4c9aa501678482101452.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3e360de0ddc34bb1946c4562e316280f = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_3e360de0ddc34bb1946c4562e316280f.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_223ce182400743d3b9a6600fe1ed9374 = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_223ce182400743d3b9a6600fe1ed9374.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4a6c99d8528542c28a51724d63709fe4 = L.circle(
+                [10.7758439, 106.7017555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_4a6c99d8528542c28a51724d63709fe4.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d88f5344c07542dbb2cf6a146bd0f743 = L.circle(
+                [11.7449715, 108.8983408],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_d88f5344c07542dbb2cf6a146bd0f743.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ninh Thuan Province<li><bold>Confirmed : 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_73b17f56ab88400bbf74305001a7f053 = L.circle(
+                [16.068, 108.212],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_73b17f56ab88400bbf74305001a7f053.bindTooltip(
+                `<div>
+                     <li><bold>Province : Da Nang<li><bold>Confirmed : 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f7a0dc80f95b460eb871c6b8aedd8b66 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_f7a0dc80f95b460eb871c6b8aedd8b66.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f732aeaca08c4cdfa1f0fbb6da286992 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_f732aeaca08c4cdfa1f0fbb6da286992.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f1c01006649e453aa0fbbc1e6d6a5a5c = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_f1c01006649e453aa0fbbc1e6d6a5a5c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a741a602f8a9407297038a7cddac52fd = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_a741a602f8a9407297038a7cddac52fd.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ffa78818be4a4ab8af65e82707c6ed72 = L.circle(
+                [20.76602915, 106.22868145662432],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_ffa78818be4a4ab8af65e82707c6ed72.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hai Duong Province<li><bold>Confirmed : 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_38c8852ef65b4f7098b5121871f477f4 = L.circle(
+                [21.1212051, 106.0880245],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_38c8852ef65b4f7098b5121871f477f4.bindTooltip(
+                `<div>
+                     <li><bold>Province : Bac Ninh Province<li><bold>Confirmed : 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bdf36e6f33ec4997a534b3f5cab5ec7e = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_bdf36e6f33ec4997a534b3f5cab5ec7e.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3143747b05de48619971605678fcad0a = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_3143747b05de48619971605678fcad0a.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ac140a3228b04d9f966ee5a68f105d8a = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_ac140a3228b04d9f966ee5a68f105d8a.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c84cc5cb06884d48b69ffdd57b9c688b = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_c84cc5cb06884d48b69ffdd57b9c688b.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10efe9108f57439ba2f251d252ca527f = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_10efe9108f57439ba2f251d252ca527f.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ebece548a12d4199912f6d9f39750796 = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_ebece548a12d4199912f6d9f39750796.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4211c236302e463eab5502d54b7111fa = L.circle(
+                [10.6673071, 106.4576608],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_4211c236302e463eab5502d54b7111fa.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e5c4eed49f0942bbab9ba1066e7bde45 = L.circle(
+                [10.6673071, 106.4576608],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_e5c4eed49f0942bbab9ba1066e7bde45.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_da5ccf3f124142ca890ba213fe888bc7 = L.circle(
+                [10.6673071, 106.4576608],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_da5ccf3f124142ca890ba213fe888bc7.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_595701da731049e89b0229349fd9c464 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_595701da731049e89b0229349fd9c464.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_939e1249b5564fb2a860274e840d12a0 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_939e1249b5564fb2a860274e840d12a0.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d6145e61f9e24b05887d4c0308626eed = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_d6145e61f9e24b05887d4c0308626eed.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0c9ddf76cda64e389d6625df4208f075 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_0c9ddf76cda64e389d6625df4208f075.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8c2dc395a76c4f95a8d0de35c54fe808 = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_8c2dc395a76c4f95a8d0de35c54fe808.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b2b2fa990ca422a84f8078376b28581 = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_2b2b2fa990ca422a84f8078376b28581.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_484dac76fdf44588bb14f216916a579d = L.circle(
+                [10.7758439, 106.7017555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_484dac76fdf44588bb14f216916a579d.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6b903923506843faa1b4754bd8df2d28 = L.circle(
+                [10.7758439, 106.7017555],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_6b903923506843faa1b4754bd8df2d28.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1c24b81215bf46988b8e1f4f1fa9afb3 = L.circle(
+                [11.03655, 106.50390949756692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_1c24b81215bf46988b8e1f4f1fa9afb3.bindTooltip(
+                `<div>
+                     <li><bold>Province : Ho Chi Minh<li><bold>Confirmed : 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3de58939fa314b95b7f2b74684be16dd = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_3de58939fa314b95b7f2b74684be16dd.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f37d7ae813c647e4a45375301d30e26c = L.circle(
+                [21.1361069, 105.8426874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 330, "stroke": true, "weight": 3}
+            ).addTo(map_931d32f38f4e48108773be594218f6fa);
+        
+    
+            circle_f37d7ae813c647e4a45375301d30e26c.bindTooltip(
+                `<div>
+                     <li><bold>Province : Hanoi<li><bold>Confirmed : 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
