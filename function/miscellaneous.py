@@ -30,5 +30,3 @@ uniChars = "àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềế�
 unsignChars = "aaaaaaaaaaaaaaaaaeeeeeeeeeeediiiiiooooooooooooooooouuuuuuuuuuuyyyyyAAAAAAAAAAAAAAAAAEEEEEEEEEEEDIIIOOOOOOOOOOOOOOOOOOOUUUUUUUUUUUYYYYYAADOOU"
 
 
-
-
