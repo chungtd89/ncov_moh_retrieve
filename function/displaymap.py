@@ -9,5 +9,4 @@ def display():
 
     driver, browser = set_driver(browser)
 
-    print(path)
     driver.get(path)
