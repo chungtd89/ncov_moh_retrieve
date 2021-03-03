@@ -40,8 +40,24 @@ while value != "exit":
                 retrieval()
                 break
     elif value == "1":
-        create_data_frame()
-        break
+        choices = ""
+        while choices != "exit":
+            file_valid = os.path.isfile(dataframe_output)
+            if file_valid:
+                choices = input(
+                    "Your dataframe is already created. Create a new one?"
+                    "\n1. Replace"
+                    "\n2. Keep"
+                    "\nChoices: "
+                )
+                if choices == "1":
+                    create_data_frame()
+                    break
+                elif choices == "2":
+                    break
+            else:
+                create_data_frame()
+                break
     elif value == "2":
         choices = ""
         while choices != "exit":
@@ -80,4 +96,3 @@ while value != "exit":
         break
     else:
         print("Input value is valid in range [0-->4] only!")
-
